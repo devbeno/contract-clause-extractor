@@ -1,0 +1,262 @@
+.dashboard {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+header {
+  background: white;
+  padding: 20px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.logout-btn {
+  padding: 10px 20px;
+  background: #000000;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.logout-btn:hover {
+  background: #333333;
+}
+
+.dashboard-content {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.upload-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.upload-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.file-upload input[type="file"] {
+  padding: 10px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.file-name {
+  color: #000000;
+  font-weight: 600;
+}
+
+.upload-btn {
+  padding: 12px 24px;
+  background: #000000;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  align-self: flex-start;
+  transition: background 0.3s;
+}
+
+.upload-btn:hover:not(:disabled) {
+  background: #333333;
+}
+
+.upload-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.extractions-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.extractions-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.extractions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.extraction-item {
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.extraction-item:hover {
+  border-color: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.extraction-item h3 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+
+.extraction-item p {
+  color: #666;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.extraction-item .date {
+  color: #999;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #f0f0f0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  background: #e0e0e0;
+}
+
+.modal-content h2 {
+  color: #333;
+  margin-bottom: 16px;
+  padding-right: 40px;
+  word-break: break-word;
+}
+
+.modal-content p {
+  color: #666;
+  margin: 8px 0;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status.completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status.failed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.clauses-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.clause-card {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.clause-card h4 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.clause-type {
+  display: inline-block;
+  background: #000000;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.clause-content {
+  color: #444;
+  line-height: 1.6;
+  margin: 12px 0;
+}
+
+.clause-summary {
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.error {
+  background: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}

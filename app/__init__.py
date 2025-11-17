@@ -1,0 +1,1 @@
+"""Contract Clause Extractor API."""

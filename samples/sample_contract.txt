@@ -1,0 +1,81 @@
+SERVICE AGREEMENT
+
+This Service Agreement ("Agreement") is entered into as of January 1, 2024 ("Effective Date"), by and between TechCorp Inc., a Delaware corporation ("Client"), and ServicePro LLC, a California limited liability company ("Service Provider").
+
+1. SERVICES
+Service Provider agrees to provide software development services as described in Exhibit A attached hereto. The services shall include design, development, testing, and deployment of custom software applications.
+
+2. PAYMENT TERMS
+Client agrees to pay Service Provider a total fee of $100,000 for the services rendered. Payment shall be made in three installments:
+- $30,000 upon signing of this Agreement
+- $40,000 upon completion of development milestone
+- $30,000 upon final delivery and acceptance
+
+All payments are due within 30 days of invoice date. Late payments shall incur interest at a rate of 1.5% per month.
+
+3. TERM AND TERMINATION
+This Agreement shall commence on the Effective Date and continue for a period of six (6) months, unless earlier terminated as provided herein.
+
+Either party may terminate this Agreement:
+(a) For convenience, upon thirty (30) days' written notice to the other party
+(b) Immediately, upon written notice, if the other party materially breaches this Agreement and fails to cure such breach within fifteen (15) days
+
+Upon termination, Client shall pay Service Provider for all services performed up to the termination date.
+
+4. CONFIDENTIALITY
+Each party agrees to maintain in confidence all Confidential Information of the other party. "Confidential Information" means any non-public information disclosed by one party to the other, including but not limited to business plans, customer lists, financial information, and technical data.
+
+The receiving party shall:
+(a) Use Confidential Information only for purposes of performing under this Agreement
+(b) Protect Confidential Information using at least the same degree of care as it uses for its own confidential information
+(c) Not disclose Confidential Information to third parties without prior written consent
+
+This confidentiality obligation shall survive for three (3) years after termination of this Agreement.
+
+5. INTELLECTUAL PROPERTY
+All intellectual property rights in the deliverables created under this Agreement shall vest in Client upon full payment. Service Provider hereby assigns all rights, title, and interest in such deliverables to Client.
+
+Service Provider retains ownership of any pre-existing intellectual property and grants Client a non-exclusive license to use such pre-existing materials as incorporated in the deliverables.
+
+6. WARRANTY
+Service Provider warrants that:
+(a) Services will be performed in a professional and workmanlike manner
+(b) Deliverables will be free from material defects for ninety (90) days after delivery
+(c) Services will not infringe any third-party intellectual property rights
+
+EXCEPT AS EXPRESSLY PROVIDED HEREIN, SERVICE PROVIDER MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+7. LIMITATION OF LIABILITY
+IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Service Provider's total liability under this Agreement shall not exceed the total fees paid by Client under this Agreement.
+
+8. INDEMNIFICATION
+Service Provider agrees to indemnify, defend, and hold harmless Client from and against any claims, damages, or expenses arising from Service Provider's breach of this Agreement or negligence in performing the services.
+
+Client agrees to indemnify, defend, and hold harmless Service Provider from and against any claims arising from Client's use of the deliverables in a manner not authorized by this Agreement.
+
+9. GOVERNING LAW AND DISPUTE RESOLUTION
+This Agreement shall be governed by the laws of the State of California, without regard to its conflict of laws principles.
+
+Any disputes arising under this Agreement shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association. The arbitration shall be held in San Francisco, California.
+
+Each party shall bear its own costs and expenses, and the parties shall share equally the arbitrator's fees.
+
+10. GENERAL PROVISIONS
+This Agreement constitutes the entire agreement between the parties and supersedes all prior agreements and understandings. This Agreement may only be amended in writing signed by both parties.
+
+If any provision of this Agreement is held invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+This Agreement may not be assigned by either party without the prior written consent of the other party, except that Client may assign this Agreement to a successor in interest.
+
+All notices under this Agreement shall be in writing and delivered by email or certified mail to the addresses set forth below.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+TECHCORP INC.                          SERVICEPRO LLC
+
+By: ___________________                By: ___________________
+Name: John Smith                       Name: Jane Doe
+Title: CEO                             Title: Managing Partner
+Date: January 1, 2024                  Date: January 1, 2024
